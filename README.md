@@ -1,4 +1,4 @@
-# ClyphX Minimal examples
+# Minimal ClyphX custom user action script examples for Ableton Live
 
 These scripts serve as a demonstration of how to create ClyphX custom user action scripts.
 They don't do anything useful, but simply serve as a starting point.
