@@ -5,7 +5,7 @@ def register(trg):
     trg._parent.log_message('Registering UserAction command from:%s' % __file__)
 
     # create object and store on ClyphXUserAction class
-    obj = MyClyphXCmd()  # object isn't GC'ed I think because the closure mainstains a reference to it
+    obj = MyClyphXCmd()  # object isn't GC'ed I think because the closure maintains a reference to it
 
     # maps name of ClyphX command to method on ClyphXUserAction class
     trg._action_dict['GNIP_MINIMAL_OBJ'] = 'gnip_minimal_obj_router_method'
